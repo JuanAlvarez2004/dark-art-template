@@ -29,7 +29,7 @@ function NavigationBase({ sections, isVisible, toggle, onSelect, currentIndex },
       >
         <img
           className='bg-red-600'
-          src={isVisible ? '/src/assets/icons/arrow-left.svg' : '/src/assets/icons/arrow-right.svg'}
+          src={isVisible ? '/icons/arrow-left.svg' : '/icons/arrow-right.svg'}
           alt={isVisible ? 'Ocultar' : 'Mostrar'}
         />
       </button>
